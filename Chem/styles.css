@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  ul ul {
+    display: none; /* Default to hidden */
+  }
+  
+  ul ul.visible {
+    display: block; /* Display when visible */
+  }  

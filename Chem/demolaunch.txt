@@ -1,0 +1,6 @@
+# using local server to access the chem index demo
+
+cd C:\WebProjects\TBProject\Chem
+python -m http.server 8000
+
+# website: http://localhost:8000/index.html
